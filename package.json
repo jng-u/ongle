@@ -1,0 +1,10 @@
+{
+  "name": "ongyeol-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ongle run dev --",
+    "test": "npm --prefix ongle test",
+    "build": "npm --prefix ongle run build",
+    "preview": "npm --prefix ongle run preview"
+  }
+}

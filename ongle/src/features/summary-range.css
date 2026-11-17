@@ -1,0 +1,2 @@
+.summary-controls{display:grid;gap:12px;margin-bottom:16px}.summary-controls label{min-width:0}.summary-range-dates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.summary-range-dates input{min-width:0;max-width:100%}@media(max-width:380px){.summary-range-dates{grid-template-columns:1fr}}
+.summary-option{display:flex;gap:8px;align-items:center;font-size:.9rem}.summary-option input{width:18px;height:18px}

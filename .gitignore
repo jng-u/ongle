@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.omx/
+.agents/
+.codex/
+.aws/
+.openai/
+.impeccable/
+.env*
+!.env.example
+*.local
+__pycache__/
+*.pyc
+.DS_Store

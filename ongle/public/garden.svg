@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="200" viewBox="0 0 440 200" fill="none">
+  <title>고요한 아침의 정원</title>
+  <desc>살구빛 해와 겹겹의 산, 밭고랑과 짙은 잎이 어우러진 풍경. 왼쪽은 투명하게 비워 두었습니다.</desc>
+  <defs>
+    <clipPath id="garden-frame"><path d="M0 0h440v200H0z"/></clipPath>
+    <clipPath id="garden-field"><path d="M112 200c46-37 77-62 123-63 64-2 105 45 205 6v57Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#garden-frame)">
+    <circle cx="317" cy="61" r="33" fill="#E9AE86"/>
+    <path d="M202 133c27-21 47-48 72-48 26 0 41 28 61 28 23 0 40-45 68-45 16 0 28 11 43 26v106H202Z" fill="#A9B39B"/>
+    <path d="M158 169c32-25 54-59 85-60 24-1 41 21 64 24 39 6 66-30 101-23 14 3 26 12 38 21v69H158Z" fill="#B6A16E"/>
+    <path d="M212 169c32-8 57-48 91-50 34-1 50 25 79 25 23 0 40-17 64-24v80H212Z" fill="#678773"/>
+    <path d="M112 200c46-37 77-62 123-63 64-2 105 45 205 6v57Z" fill="#3F7062"/>
+    <g clip-path="url(#garden-field)" stroke="#A5BB95" stroke-width="1.2" opacity=".65">
+      <path d="M127 202c49-42 79-57 112-55 58 2 109 48 208 7"/>
+      <path d="M151 207c40-39 63-52 94-49 55 5 111 43 202 8"/>
+      <path d="M174 214c32-39 56-47 82-42 51 10 108 35 191 5"/>
+      <path d="M196 220c27-36 47-41 72-34 45 14 104 26 179 2"/>
+    </g>
+    <path d="M286 200c39-18 62-12 88-5 27 8 46-2 66-10v15Z" fill="#245548"/>
+    <g fill="#214F43">
+      <path d="M392 208c-36-27-49-57-42-91 24 20 39 51 42 91Z"/>
+      <path d="M394 204c-3-45 7-79 35-107 2 43-8 78-35 107Z"/>
+      <path d="M406 210c9-41 27-66 53-78-6 34-23 62-53 78Z"/>
+      <path d="M377 210c-30-12-52-29-63-57 30 6 53 25 63 57Z"/>
+    </g>
+    <g stroke="#A5BB95" stroke-linecap="round" stroke-width="1.2">
+      <path d="m391 200-32-65m36 65 25-83m-19 87 36-50"/>
+    </g>
+    <g stroke="#315D4F" stroke-linecap="round" stroke-width="1.8">
+      <path d="M251 62c4-2 7-1 10 2 3-3 6-4 10-2"/>
+      <path d="M275 49c3-2 5-1 7 1 2-2 4-3 7-1"/>
+    </g>
+    <g fill="#D3BD81">
+      <path d="M329 198c-10-10-14-22-11-34 9 9 12 21 11 34Z"/>
+      <path d="M330 198c0-16 6-27 15-33 0 15-5 25-15 33Z"/>
+    </g>
+  </g>
+</svg>

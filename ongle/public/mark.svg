@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none">
+  <title>온결</title>
+  <desc>짙은 비취색 모서리 둥근 사각형 안에 두 장의 잎으로 자라나는 새싹.</desc>
+  <rect width="128" height="128" rx="34" fill="#214F43"/>
+  <g fill="#F5F3E8">
+    <path d="M64 75C44 75 32 62 33 43c20-1 33 11 33 29v3Z"/>
+    <path d="M63 67c0-22 12-36 33-37 2 21-10 36-30 39l-3 1Z"/>
+    <path d="M60 64h8v29a4 4 0 0 1-8 0V64Z"/>
+  </g>
+</svg>

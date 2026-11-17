@@ -1,0 +1,31 @@
+{
+  "publisher": "건강보험심사평가원",
+  "license": "공공누리 제1유형 (출처표시)",
+  "licenseUrl": "https://www.kogl.or.kr/info/licenseType1.do",
+  "retrieved": "2026-11-16",
+  "sources": {
+    "products": {
+      "page": "https://www.data.go.kr/data/15067462/fileData.do",
+      "download": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000007666876&fileDetailSn=1",
+      "dataDate": "2026-08-31",
+      "sha256": "2d00689474851d81e6efb2ec4ccff9e271b46c5ba0d3640adfa797dff79368fa",
+      "bytes": 55741167
+    },
+    "ingredients": {
+      "page": "https://www.data.go.kr/data/15067461/fileData.do",
+      "download": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000007759104&fileDetailSn=1",
+      "dataDate": "2026-11-05",
+      "sha256": "0df509cfc612dfd47daf32eb12c96f8f5402ac909496a357b250b632cff42df8",
+      "bytes": 3836693
+    }
+  },
+  "columns": [
+    "itemSeq",
+    "name",
+    "ingredient"
+  ],
+  "scope": "전문·일반·희귀 의약품; 포장 중복을 품목기준코드+원문제품명으로 합침. 누적 자료로 현재 허가·판매·급여 여부를 나타내지 않음.",
+  "productRows": 309889,
+  "ingredientRows": 60750,
+  "catalogRows": 91324
+}

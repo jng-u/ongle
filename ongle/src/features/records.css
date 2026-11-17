@@ -1,0 +1,119 @@
+.records-page{display:grid;gap:24px;min-width:0}
+.records-page h2{margin:0;font-size:18px;line-height:1.5}
+.records-page .panel-head{gap:16px;flex-wrap:wrap}
+.records-date-nav{display:flex;align-items:center;gap:6px}
+.records-date-label input{background:transparent;border:1px solid var(--border,#e4e8e5);border-radius:8px;padding:7px 8px;min-height:36px;color:inherit;font:inherit;max-width:160px}
+.records-padding{padding:0 24px 24px}
+.records-entry{padding:8px 24px 24px}
+.records-tags{display:flex;flex-wrap:wrap;gap:8px}
+.records-note{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.75;margin:12px 0;color:var(--text,#293e39)}
+.records-entry>.btn{margin-top:14px}
+.records-history{width:100%;border:0;background:transparent;color:inherit;text-align:left;cursor:pointer;font:inherit;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.records-history>div{display:grid;gap:7px;min-width:0}
+.records-history span{color:var(--muted,#65766e);overflow:hidden;white-space:nowrap;text-overflow:ellipsis;max-width:65ch}
+.records-history:hover,.records-last-exam:hover{background:var(--surface-soft,#f3f7f4)}
+.records-visit{display:flex;align-items:flex-start;gap:14px}
+.records-event-icon{display:grid;place-items:center;flex:0 0 42px;height:42px;background:#eaf3ee;color:#39795d;border-radius:12px}
+.records-event-icon.exam{background:#f4eee6;color:#956e40}
+.records-row-main{flex:1;min-width:0}
+.records-row-main>p{margin:7px 0;font-size:14px}
+.records-row-title{display:flex;align-items:center;gap:9px;flex-wrap:wrap;overflow-wrap:anywhere}
+.records-row-title>.btn{margin-left:auto}
+.records-row-title .tag{font-size:11px}
+.records-exam-dates{padding:0 24px 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.records-last-exam{display:flex;align-items:center;gap:10px;text-align:left;border:1px solid var(--border,#e4e8e5);background:transparent;padding:14px;border-radius:10px;font:inherit;color:inherit;cursor:pointer;flex-wrap:wrap}
+.records-last-exam strong{font-size:14px}
+.records-last-exam span{font-size:12px;color:var(--muted,#65766e)}
+.records-last-exam>svg:last-child{margin-left:auto}
+.records-calendar-legend{display:flex;flex-wrap:wrap;gap:16px;padding:0 24px 18px;font-size:12px;color:var(--muted,#65766e)}
+.records-calendar-legend span{display:flex;align-items:center;gap:6px}
+.records-calendar i{display:inline-block;flex-shrink:0;width:6px;height:6px;border-radius:50%}
+.records-calendar .dose{background:#428367}
+.records-calendar .event{background:#b57b3b}
+.records-calendar .entry{background:#748aaf}
+.records-calendar .lab{background:#9a73a8}
+.records-month-grid{padding:0 20px 20px}
+.records-weekdays,.records-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.records-weekdays span{text-align:center;font-size:12px;font-weight:600;color:var(--muted,#65766e);padding:10px}
+.records-weekdays span:first-child{color:#ad6262}
+.records-days{border-top:1px solid var(--border,#e4e8e5);border-left:1px solid var(--border,#e4e8e5)}
+.records-day{border:0;border-right:1px solid var(--border,#e4e8e5);border-bottom:1px solid var(--border,#e4e8e5);background:transparent;padding:9px;min-height:108px;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:6px;cursor:pointer;font:inherit;color:inherit;position:relative;text-align:left}
+.records-day:hover{background:#f2f6f2}
+.records-day.outside{background:#fafbf9;color:#7a857e}
+.records-day.selected{background:#ecf4ee;box-shadow:inset 0 0 0 2px #4c8266}
+.records-day-number{font-size:13px;display:grid;place-items:center;min-width:26px;height:26px}
+.records-day.today .records-day-number{background:#346c50;color:white;border-radius:50%;font-weight:700}
+.records-day-content{display:grid;gap:4px;min-width:0;width:100%}
+.records-day-dose{display:flex;align-items:center;gap:3px;font-size:11px;color:#346c50}
+.records-day-event{display:block;background:#f6eee2;color:#7b572d;font-size:11px;line-height:1.7;padding:0 4px;border-radius:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.records-day-extra{font-size:10px;color:var(--muted,#65766e)}
+.records-day-dots{display:flex;gap:4px;min-height:6px}
+.records-day-summary{padding:0 24px 24px}
+.records-dose-summary{display:flex;align-items:center;gap:10px;color:#346c50;font-size:14px;margin:0 0 18px}
+.records-day-summary>.records-visit{padding:16px 0;border-top:1px solid var(--border,#e4e8e5)}
+.records-summary-entry,.records-summary-labs{padding:20px 0;border-top:1px solid var(--border,#e4e8e5)}
+.records-summary-entry>.records-tags{margin-top:14px}
+.records-summary-entry>p{font-size:14px}
+.records-summary-labs>p{display:flex;gap:20px;justify-content:space-between;font-size:14px}
+.records-summary-labs small{font-weight:400;color:var(--muted,#65766e)}
+.records-fieldset{padding:0;border:0;margin:0;min-width:0}
+.records-fieldset legend{font-weight:600;font-size:14px;margin-bottom:12px}
+.records-fieldset legend .muted,.records-form .field>.muted{font-weight:400;font-size:12px}
+.records-moods{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.records-moods button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:transparent;border:1px solid var(--border,#e4e8e5);border-radius:10px;min-height:82px;padding:9px 3px;font:inherit;font-size:12px;color:inherit;cursor:pointer}
+.records-moods button.active{background:#eaf3ee;border-color:#47775f;color:#28543f}
+.records-form-pair{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.records-form .field{min-width:0}
+.records-form input,.records-form select,.records-form textarea{max-width:100%;box-sizing:border-box;font:inherit}
+.records-form textarea{resize:vertical;min-height:104px;line-height:1.65}
+.records-type-picker{display:flex;gap:10px}
+.records-type-picker button{display:flex;align-items:center;justify-content:center;gap:9px;flex:1;padding:12px;border:1px solid var(--border,#e4e8e5);border-radius:9px;background:transparent;color:inherit;cursor:pointer;font:inherit}
+.records-type-picker button.active{border-color:#47775f;background:#eaf3ee;color:#28543f}
+.records-form-actions{flex-wrap:wrap;gap:8px}
+.records-form-actions>.records-danger,.records-form-actions>.records-delete-confirm{margin-right:auto}
+.records-form .records-danger{color:#a54438}
+.records-delete-confirm{display:flex;align-items:center;flex-wrap:wrap;gap:7px;font-size:12px}
+.records-error{color:#a54438;font-size:13px;margin:0}
+.records-page button:focus-visible,.records-form button:focus-visible,.records-page input:focus-visible,.records-form input:focus-visible,.records-form select:focus-visible,.records-form textarea:focus-visible{outline:3px solid #54886b;outline-offset:3px}
+.records-page button,.records-form button{touch-action:manipulation}
+.records-page ::selection,.records-form ::selection{background:#d7e9db;color:#233c2d}
+.records-page .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+@media(max-width:640px){.records-page{gap:18px}
+.records-date-nav{gap:3px}
+.records-page .panel-head{gap:12px}
+.records-entry,.records-day-summary{padding-left:16px;padding-right:16px}
+.records-padding{padding-left:16px;padding-right:16px}
+.records-exam-dates{padding-left:16px;padding-right:16px;grid-template-columns:1fr}
+.records-calendar-legend{padding-left:14px;padding-right:14px;gap:12px;font-size:11px}
+.records-month-grid{padding:0 8px 12px}
+.records-day{padding:5px 3px;min-height:82px;gap:3px}
+.records-day-number{font-size:12px;min-width:23px;height:23px}
+.records-day-dose{font-size:10px;gap:1px}
+.records-day-dose svg{display:none}
+.records-day-event{font-size:10px;padding:0 2px}
+.records-day-dots{gap:3px}
+.records-calendar i{width:5px;height:5px}
+.records-history span{max-width:55vw}
+.records-visit{gap:10px}
+.records-event-icon{flex-basis:34px;height:34px;border-radius:10px}
+.records-row-title{gap:7px}
+.records-row-main>p{font-size:12px}
+.records-form-pair{gap:10px}
+.records-moods button{font-size:11px;min-height:78px}
+.records-form-actions .btn{padding-left:12px;padding-right:12px}
+}
+
+@media(prefers-reduced-motion:no-preference){.records-day,.records-moods button,.records-type-picker button{transition:background-color .16s ease-out,border-color .16s ease-out}
+}
+
+
+.records-entry-fields{display:grid;gap:18px;border:0;padding:0;margin:0;min-width:0}
+.records-entry-fields:disabled{opacity:.65}
+.records-future-note{font-size:13px;color:var(--muted,#586a60);line-height:1.65}
+.records-completion{display:grid;gap:7px}
+.records-completion label{display:flex;align-items:center;gap:9px;font-weight:600;font-size:14px}
+.records-completion input[type=checkbox]{width:18px;height:18px;margin:0;accent-color:var(--accent,#285b49)}
+.records-completion p{font-size:12px;line-height:1.65}
+.records-visit-status{font-size:11px;color:var(--muted,#586a60)}
+.records-visit-status.completed{color:var(--accent,#285b49)}

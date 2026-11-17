@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.omx/
+.impeccable/review/
+*.local
+.env*
+!.env.example
+__pycache__/
+*.pyc
+QA-notes.local
+/android/signing.local/
+/android/build/

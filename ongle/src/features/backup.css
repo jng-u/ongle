@@ -1,0 +1,25 @@
+.backup-settings{overflow-wrap:anywhere}.backup-settings h2,.backup-settings h3{margin-top:0}.backup-settings p{line-height:1.7}.backup-controls{border:0;padding:0;margin:0;min-width:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.backup-controls:disabled{opacity:.65}.backup-form{padding-top:20px;border-top:1px solid var(--border,#dce1d7)}.backup-form .field{display:flex;flex-direction:column;gap:8px}.backup-form input{max-width:100%;min-width:0;box-sizing:border-box}.backup-form input[type=file]{font-size:14px;padding:10px 0}.backup-form small{line-height:1.6}.backup-error{color:#963535}.backup-preview{margin-top:24px;padding-top:20px;border-top:1px solid var(--border,#dce1d7)}.backup-counts{display:flex;flex-wrap:wrap;gap:16px 28px}.backup-counts dt{font-size:13px;color:var(--muted,#626c61)}.backup-counts dd{margin:6px 0 0;font-weight:600}.backup-consent{display:flex;align-items:flex-start;gap:10px;line-height:1.7;margin:20px 0}.backup-consent input{margin-top:6px;flex-shrink:0;width:18px;height:18px;accent-color:var(--accent,#447757)}.backup-settings button:focus-visible,.backup-settings input:focus-visible,.summary-actions button:focus-visible,.summary-sheet summary:focus-visible{outline:2px solid var(--accent,#447757);outline-offset:3px}.summary-actions{margin-bottom:24px}.summary-actions p{line-height:1.7}.summary-sheet{font-size:14px;line-height:1.65;overflow-wrap:anywhere}.summary-sheet header{border-bottom:1px solid var(--border,#dce1d7);padding-bottom:16px}.summary-sheet header h2{font-size:21px;margin:0 0 12px}.summary-sheet section{margin-top:28px}.summary-sheet h3{font-size:17px;margin:0 0 12px}.summary-sheet h4{font-size:14px;margin:20px 0 10px}.summary-sheet ul{padding-left:20px}.summary-sheet li{margin-bottom:12px}.summary-sheet li p{margin:4px 0}.summary-sheet footer{margin-top:28px;padding-top:16px;border-top:1px solid var(--border,#dce1d7);font-size:12px}.summary-note{white-space:pre-wrap}.summary-table-wrap{overflow-x:auto}.summary-sheet table{width:100%;border-collapse:collapse;font-size:12px;min-width:530px}.summary-sheet caption{text-align:left;margin-bottom:8px}.summary-sheet th,.summary-sheet td{border-bottom:1px solid var(--border,#dce1d7);text-align:left;vertical-align:top;padding:9px 6px}.summary-sheet th:first-child{white-space:nowrap}.summary-sheet td:last-child{min-width:100px}.summary-daily summary{cursor:pointer;padding:10px 0}.summary-daily ul{columns:2}.ongle-print-sheet{display:none}@media(max-width:680px){.backup-controls{grid-template-columns:1fr;gap:24px}.backup-settings .form-actions{flex-wrap:wrap}.summary-daily ul{columns:1}}
+@media print{
+  @page{size:A4;margin:16mm}
+  html:has(> body.ongle-summary-open){background:white!important}
+  body.ongle-summary-open{background:white!important;color:black!important;margin:0!important;overflow:visible!important;height:auto!important}
+  body.ongle-summary-open > :not(.ongle-print-sheet){display:none!important}
+  body.ongle-summary-open dialog::backdrop{display:none!important;background:transparent!important}
+  body.ongle-summary-open > .ongle-print-sheet{display:block!important;position:static!important;color:black;background:white}
+  .ongle-print-sheet .summary-sheet{font-size:10pt;line-height:1.5;color:black}
+  .ongle-print-sheet .summary-sheet h2{font-size:17pt}
+  .ongle-print-sheet .summary-sheet h3{font-size:12pt;break-after:avoid}
+  .ongle-print-sheet .summary-sheet h4{break-after:avoid}
+  .ongle-print-sheet .summary-sheet table{min-width:0;table-layout:fixed;font-size:8pt}
+  .ongle-print-sheet .summary-sheet th:first-child{white-space:normal;width:17%}
+  .ongle-print-sheet .summary-sheet thead th:not(:first-child):not(:last-child){width:10%}
+  .ongle-print-sheet .summary-sheet thead th:last-child{width:43%}
+  .ongle-print-sheet .summary-sheet td:last-child{min-width:0;width:28%}
+  .ongle-print-sheet .summary-sheet th,.ongle-print-sheet .summary-sheet td{border-color:#aaa;padding:5px 3px}
+  .ongle-print-sheet .summary-sheet tr,.ongle-print-sheet .summary-sheet li{break-inside:avoid}
+  .ongle-print-sheet .summary-sheet thead{display:table-header-group}
+  .ongle-print-sheet .summary-table-wrap{overflow:visible}
+  .ongle-print-sheet .summary-daily{display:none}
+}
+.summary-sheet .summary-journal{min-width:min(100%,350px)}
+@media print{.ongle-print-sheet .summary-journal thead th:nth-child(2){width:40%}}
